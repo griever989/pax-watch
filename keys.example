@@ -1,0 +1,11 @@
+module.exports = {
+    twitter: {
+        consumer_key: 'wwwww',
+        consumer_secret: 'xxxxx',
+        access_token: 'yyyyy',
+        access_token_secret: 'zzzzz'
+    },
+    pushbullet: {
+        access_token: 'ttttt'
+    }
+};

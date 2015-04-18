@@ -1,0 +1,26 @@
+{
+  "name": "pax-watch",
+  "version": "0.0.0",
+  "description": "",
+  "main": "watch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/griever989/pax-watch.git"
+  },
+  "author": "",
+  "license": "_",
+  "bugs": {
+    "url": "https://github.com/griever989/pax-watch/issues"
+  },
+  "homepage": "https://github.com/griever989/pax-watch",
+  "dependencies": {
+    "moment": "^2.10.2",
+    "pushbullet": "^1.4.3",
+    "pushover.net": "0.0.6",
+    "q": "^1.2.0",
+    "twit": "^1.1.20"
+  }
+}
