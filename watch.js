@@ -52,7 +52,7 @@ function pollTweets() {
             });
 
         if (tweets.length === 0) {
-            console.log(moment().format('HH:mm:ss'), 'No new tweets.');
+            console.log(moment().format('llll'), 'No new tweets.');
             return;
         }
 
@@ -80,7 +80,7 @@ function processTweet(tweet) {
                         console.log(error);
                         return;
                     }
-                    console.log('Pushed tweet ' + tweet.id + ' to device ' + device.nickname);
+                    console.log('Pushed tweet ' + tweet.id + ' to device ' + device.nickname + ' at ' + moment().format('llll'));
                 });
             }
         });
